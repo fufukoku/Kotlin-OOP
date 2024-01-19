@@ -3,7 +3,7 @@ fun main() {
     mouse0.makeASound()
 }
 
-fun moveAndMakeASound(animal: Animal){ //Polymorphism
+fun moveAndMakeASound(animal: Animal){
     animal.move("forward")
     animal.makeASound()
 }
