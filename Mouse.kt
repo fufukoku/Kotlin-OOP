@@ -1,6 +1,6 @@
 class Mouse(_name:String = "Jerry"): Animal(_name){
     override fun makeASound(){
-        squeaks();
+        squeaks()
     }
 
     private fun squeaks(){
